@@ -19,16 +19,25 @@ var AnyVariableName = "Whatever String, Number, or other Object";
 let AnyVariableName = "Whatever String, Number, or other Object";
 const AnyVariableName = "ES6 - Whatever String, Number, or other Object in ES6";
 
-## GO (GOLANG) - THE LONG WAY
+## GO (GOLANG) - INTEGERS - THE LONG WAY
 var AnyVariableName int
 AnyVariableName = 700
 
-## GO (GOLANG) - ALT1 - ASSIGN VALUE ON SAME LINE
+## GO (GOLANG) - INTEGERS - ALT1 - ASSIGN VALUE ON SAME LINE
 var AnyVariableName int = 700
 
-## GO (GOLANG) - ALT2 - SHORTCUT INFERS TYPE
+## GO (GOLANG) - INTEGERS - ALT2 - SHORTCUT INFERS TYPE
 AnyVariableName := 700
 
+## GO (GOLANG) - FLOAT64 - THE LONG WAY
+var AnyVariableName float64
+AnyVariableName = 700.00
+
+## GO (GOLANG) - FLOAT64 - ALT1 - ASSIGN VALUE ON SAME LINE
+var AnyVariableName float64 = 700.00
+
+## GO (GOLANG) - FLOAT64 - ALT2 - SHORTCUT INFERS TYPE
+AnyVariableName := 700.00
 
 
 
