@@ -39,6 +39,15 @@ var AnyVariableName float64 = 700.00
 ## GO (GOLANG) - FLOAT64 - ALT2 - SHORTCUT INFERS TYPE
 AnyVariableName := 700.00
 
+## GO (GOLANG) - STRING - THE LONG WAY
+var AnyVariableName string
+AnyVariableName = "700"
+
+## GO (GOLANG) - STRING - ALT1 - ASSIGN VALUE ON SAME LINE
+var AnyVariableName string = "700"
+
+## GO (GOLANG) - STRING - ALT2 - SHORTCUT INFERS TYPE
+AnyVariableName := "700"
 
 
 ## PRINT TO CONSOLE
