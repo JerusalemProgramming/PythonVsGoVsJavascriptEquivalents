@@ -138,8 +138,14 @@ if (WhateverCondition) {
   return();
 }
 
-## GO (GOLANG)
-
+## GO (GOLANG) // PARENTHESES AROUND CONDITION OPTIONAL
+if WhateverCondition {
+  return 
+} else if ElseIfCondition {
+  return
+} else {
+  return
+}
 
 
 
