@@ -241,7 +241,11 @@ for (var i = 0; i < 5; i++) {  ## INITIALIZE COUNTER; SET RANGE OF INTEGERS FOR 
 }
 
 ## GO (GOLANG)
-
+i := 0
+for i <= 5 {
+	fmt.Println(i) // CHANGE THIS TO ARRAY LATER
+	i = i + 1
+}
 
 
 ## GAME OVER
