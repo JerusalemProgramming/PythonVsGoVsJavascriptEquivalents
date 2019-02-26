@@ -19,34 +19,34 @@ var AnyVariableName = "Whatever String, Number, or other Object";
 let AnyVariableName = "Whatever String, Number, or other Object";
 const AnyVariableName = "ES6 - Whatever String, Number, or other Object in ES6";
 
-## GO (GOLANG) - INTEGERS - THE LONG WAY
+## GO (GOLANG) - INTEGERS - VERSION 1 - THE LONG WAY
 var AnyVariableName int
 AnyVariableName = 700
 
-## GO (GOLANG) - INTEGERS - ALT1 - ASSIGN VALUE ON SAME LINE
+## GO (GOLANG) - INTEGERS - VERSION 2 - ASSIGN VALUE ON SAME LINE
 var AnyVariableName int = 700
 
-## GO (GOLANG) - INTEGERS - ALT2 - SHORTCUT INFERS TYPE
+## GO (GOLANG) - INTEGERS - VERSION 3 - SHORTCUT INFERS TYPE
 AnyVariableName := 700
 
-## GO (GOLANG) - FLOAT64 - THE LONG WAY
+## GO (GOLANG) - FLOAT64 - VERSION 1 - THE LONG WAY
 var AnyVariableName float64
 AnyVariableName = 700.00
 
-## GO (GOLANG) - FLOAT64 - ALT1 - ASSIGN VALUE ON SAME LINE
+## GO (GOLANG) - FLOAT64 - VERSION 2 - ASSIGN VALUE ON SAME LINE
 var AnyVariableName float64 = 700.00
 
-## GO (GOLANG) - FLOAT64 - ALT2 - SHORTCUT INFERS TYPE
+## GO (GOLANG) - FLOAT64 - VERSION 3 - SHORTCUT INFERS TYPE
 AnyVariableName := 700.00
 
-## GO (GOLANG) - STRING - THE LONG WAY
+## GO (GOLANG) - STRING - VERSION 1 - THE LONG WAY
 var AnyVariableName string
 AnyVariableName = "700"
 
-## GO (GOLANG) - STRING - ALT1 - ASSIGN VALUE ON SAME LINE
+## GO (GOLANG) - STRING - VERSION 2 - ASSIGN VALUE ON SAME LINE
 var AnyVariableName string = "700"
 
-## GO (GOLANG) - STRING - ALT2 - SHORTCUT INFERS TYPE
+## GO (GOLANG) - STRING - VERSION 3 - SHORTCUT INFERS TYPE
 AnyVariableName := "700"
 
 
@@ -61,7 +61,7 @@ print(AnyVariableName)
 console.log(AnyVariableName);
 
 ## GO (GOLANG)
-
+fmt.Println(AnyVariableName)
 
 ## CHECK TYPE OF OBJECT
 ## CHECK TYPE OF OBJECT
@@ -92,7 +92,6 @@ len(AnyVariableName)
 
 
 
-
 ## IF / ELSE CONDITIONALS
 ## IF / ELSE CONDITIONALS
 ## IF / ELSE CONDITIONALS
@@ -110,7 +109,12 @@ if (WhateverCondition) {
      console.log("else AlternateCondition goes here");
 }
 
-## GO (GOLANG)
+## GO (GOLANG) // PARENTHESES AROUND CONDITION OPTIONAL
+if WhateverCondition {
+     fmt.Println("If WhateverCondition is true")
+} else {
+     fmt.Println("else AlternateCondition goes here")
+}
 
 
 ## IF / ELSE IF / ELSE CONDITIONALS
