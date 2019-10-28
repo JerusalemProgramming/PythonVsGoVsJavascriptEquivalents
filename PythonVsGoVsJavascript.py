@@ -187,8 +187,12 @@ if (1 == 1) { // WhateverCondition
      console.log("else AlternateCondition goes here");
 }
 
-## GO (GOLANG)
-
+## GO (GOLANG) // PARENTHESES AROUND CONDITION OPTIONAL
+if (1 == 1) {
+     fmt.Println("If WhateverCondition is true")
+} else {
+     fmt.Println("else AlternateCondition goes here")
+}
 
 
 
