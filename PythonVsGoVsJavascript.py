@@ -74,6 +74,7 @@ type(AnyVariableName)
 typeof(AnyVariableName);
 
 ## GO (GOLANG)
+reflect.TypeOf(AnyVariableName)
 
 
 
